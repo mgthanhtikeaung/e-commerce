@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.f-badge-size{
+    font-size: 9px;
+    padding-top: 5px;
+    padding-left: 9px;
+}
+.nav-text-size{
+    font-size: 13px;
+}
+.thambnail-frame{
+    width: 17.5%;
+    height: 17.5%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.img-width{
+    width: 83%;
+    border-radius: 20px;
+}
+.para-width{
+    width: 83%;
+}
+.para{
+    margin-top: 80px;
+}
+.para-text{
+    font-size: 12px;
+}
+.img-ani{
+    transition: 0.5s;
+}
+.img-ani:hover{
+    transform: scale(1.04);
+    
+}
+.cart-sample{
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    right: 200px;
+}
+.b-radius{
+    border-radius: 15px !important;
+}
+@media screen and (max-width:1200px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    .i-pad{
+        width: 22rem !important;
+        position: absolute;
+        top: 25px !important;
+        right: 100px !important;
+    }
+    .margin-i-pad{
+        margin-left: 60px !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .i-phone{
+       position: absolute;
+       margin-left: 183px;
+    }
+ 
+}
